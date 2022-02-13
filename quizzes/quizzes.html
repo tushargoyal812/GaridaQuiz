@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GarudaQuiz/Quizzes</title>
+    <link rel="stylesheet" href="https://garuda-ui.netlify.app/index.css">
+    <link rel="stylesheet" href="/quizzes/quizzes.css">
+    <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="e-com-header">
+        <nav class="e-com-navbar flex">
+            <div class="quiz-logo quiz-color">
+                GarudaQuiz
+            </div>
+            <div class="e-com-social">
+                <div class="ecom-login-container">
+                    <a href=""><button class="login-btn quiz-bg-color">Login</button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="quizzes-main">
+        <div class="card">
+            <div class="badge-section"></div>
+            <span class="badge-best-seller">Best seller</span>
+          <!--here,cross icon and out of stock is optional and disabled for 
+           this card,you can active these by removing "display-none" class-->
+            <span class="display-none">
+                <i class="far fa-times-circle cross-icon "></i>
+            </span>
+            <span class="out-of-stock display-none">
+                Out Of Stock
+            </span>
+            <div class="card-main-section">
+                <img src="/URL-of-image" class="product-img" alt="">
+                <main class="middle">
+                    <p class="para">Apple</p>
+                    <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                    <div class="small-2">₹78900
+                        <span class="real-price">MRP: ₹79900(1% OFF)</span>
+                    </div>
+                </main>
+                <div class="btn-section">
+                    <button class="cart-button">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
