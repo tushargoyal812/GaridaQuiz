@@ -1,0 +1,27 @@
+
+
+.option-btn{
+    width: 25rem;
+    padding: 1.5rem 8rem;
+    background-color: #cbd5e1;
+    color: black;
+}
+
+.option-btn:hover{
+    background-color: #94a3b8;
+}
+
+.question-wrapper{
+    border: 2px solid black;
+    width: 60rem;
+    margin: auto;
+}
+
+.question{
+    width: 40rem;
+    margin: auto;
+}
+
+.next-btn{
+    background-color:tomato;
+}
