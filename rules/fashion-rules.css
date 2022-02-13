@@ -1,0 +1,16 @@
+:root{
+    --quiz-color: crimson;
+}
+
+.rule-container{
+    height: 80vh;
+}
+
+.rules-wrapper{
+    border: 2px solid var(--quiz-color);
+    padding: 2rem 15rem;
+}
+
+.rules-btn{
+    background-color: var(--quiz-color);
+}
