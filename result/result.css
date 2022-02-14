@@ -1,0 +1,33 @@
+
+
+
+
+.option-btn{
+    width: 25rem;
+    padding: 1.5rem 8rem;
+    background-color: #cbd5e1;
+    color: black;
+}
+
+.question-wrapper{
+    border: 2px solid black;
+    width: 60rem;
+    margin: auto;
+}
+
+.question{
+    width: 40rem;
+    margin: auto;
+}
+
+.next-btn{
+    background-color:tomato;
+}
+
+.right-ans{
+    background-color: var(--success-color);
+}
+
+.wrong-ans{
+    background-color: var(--danger-color);
+}
