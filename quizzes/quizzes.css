@@ -1,5 +1,5 @@
 :root {
-    --quiz-color: crimson;
+    --quiz-color: #f97316;
     --shadow: #cbd5e1;
 }
 
@@ -37,7 +37,7 @@
 .quiz-card {
     width: 28rem;
     margin: 0;
-    box-shadow: 0 0 8px var(--shadow);
+    box-shadow: 0 0 10px var(--shadow);
 }
 
 .quiz-img {
