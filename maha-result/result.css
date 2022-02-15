@@ -1,7 +1,5 @@
 
 
-
-
 .option-btn{
     width: 25rem;
     padding: 1.5rem 8rem;
@@ -9,8 +7,9 @@
     color: black;
 }
 
+
 .question-wrapper{
-    border: 2px solid black;
+    box-shadow: 0 0 10px #cbd5e1;
     width: 60rem;
     margin: auto;
 }
@@ -21,13 +20,14 @@
 }
 
 .next-btn{
-    background-color:tomato;
+    background-color:#f97316;
+}
+
+.mcq{
+    text-align: center;
 }
 
 .right-ans{
     background-color: var(--success-color);
 }
 
-.wrong-ans{
-    background-color: var(--danger-color);
-}
