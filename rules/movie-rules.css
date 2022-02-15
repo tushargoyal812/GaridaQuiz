@@ -1,5 +1,5 @@
 :root{
-    --quiz-color: crimson;
+    --quiz-color: #f97316;
 }
 
 .rule-container{
@@ -9,6 +9,7 @@
 .rules-wrapper{
     border: 2px solid var(--quiz-color);
     padding: 2rem 15rem;
+    text-align: center;
 }
 
 .rules-btn{
