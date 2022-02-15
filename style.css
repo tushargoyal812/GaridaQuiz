@@ -1,6 +1,6 @@
 
 :root{
-    --quiz-color: crimson;
+    --quiz-color: #f97316;
 }
 
 .quiz-color{
@@ -12,14 +12,34 @@
 }
 
 .quiz-home-main{
-    height: 50vh;
+    height: 80vh;
+    flex-wrap: wrap;
 }
 
 .quiz-text{
-    text-align: center;
+    /* text-align: center; */
     line-height: 4;
 }
 .quiz-btn{
     padding: 0.8rem 6rem;
     font-size: 1.5rem;
+}
+
+.quiz-img-wrapper{
+    justify-content: left;
+}
+
+.quiz-img{
+    height: 30rem;
+}
+
+.quiz-start{
+    text-align: center;
+}
+
+@media only screen and (max-width:600px)
+{
+    .quiz-img{
+        height: 18rem;
+    }
 }
