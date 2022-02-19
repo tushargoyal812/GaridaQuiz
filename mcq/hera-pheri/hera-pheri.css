@@ -1,0 +1,35 @@
+:root{
+    --shadow-color:#cbd5e1;
+    --btn-hover:#94a3b8;
+}
+
+
+.option-btn{
+    width: 25rem;
+    padding: 1.5rem 8rem;
+    background-color: var(--shadow-color);
+    color: black;
+}
+
+.option-btn:hover{
+    background-color: var(--btn-hover);
+}
+
+.question-wrapper{
+    box-shadow: 0 0 10px var(--shadow-color);
+    width: 60rem;
+    margin: auto;
+}
+
+.question{
+    width: 40rem;
+    margin: auto;
+}
+
+.next-btn{
+    background-color:#f97316;
+}
+
+.mcq{
+    text-align: center;
+}
