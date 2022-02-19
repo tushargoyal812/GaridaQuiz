@@ -7,6 +7,7 @@
     color: var(--quiz-color);
 }
 
+
 .quiz-bg-color{
     background-color: var(--quiz-color);
 }
@@ -17,12 +18,11 @@
 }
 
 .quiz-text{
-    /* text-align: center; */
     line-height: 4;
 }
 .quiz-btn{
-    padding: 0.8rem 6rem;
     font-size: 1.5rem;
+    flex-shrink: 0;
 }
 
 .quiz-img-wrapper{
@@ -40,6 +40,6 @@
 @media only screen and (max-width:600px)
 {
     .quiz-img{
-        height: 18rem;
+        height: 15rem;
     }
 }
