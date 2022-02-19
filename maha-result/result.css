@@ -1,0 +1,33 @@
+
+
+.option-btn{
+    width: 25rem;
+    padding: 1.5rem 8rem;
+    background-color: #cbd5e1;
+    color: black;
+}
+
+
+.question-wrapper{
+    box-shadow: 0 0 10px #cbd5e1;
+    width: 60rem;
+    margin: auto;
+}
+
+.question{
+    width: 40rem;
+    margin: auto;
+}
+
+.next-btn{
+    background-color:#f97316;
+}
+
+.mcq{
+    text-align: center;
+}
+
+.right-ans{
+    background-color: var(--success-color);
+}
+
