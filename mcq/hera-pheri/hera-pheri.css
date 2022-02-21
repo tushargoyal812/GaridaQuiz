@@ -34,3 +34,7 @@
 .mcq{
     text-align: center;
 }
+
+.right-ans{
+    background-color: var(--success-color);
+}

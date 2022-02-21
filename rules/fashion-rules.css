@@ -3,13 +3,17 @@
 }
 
 .rule-container{
-    height: 80vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rules-wrapper{
     border: 2px solid var(--quiz-color);
-    padding: 2rem 15rem;
+    align-self: center;
     text-align: center;
+    width: 80%;
 }
 
 .rules-btn{
