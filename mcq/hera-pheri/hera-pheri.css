@@ -3,14 +3,11 @@
     --btn-hover:#94a3b8;
 }
 
-html{
-    font-size: 100%;
-}
 
 
 .option-btn{
-    width: 25rem;
-    padding: 1.5rem 8rem;
+    width: 100%;
+    padding: 1rem 5rem;
     background-color: var(--shadow-color);
     color: black;
 }
@@ -21,12 +18,12 @@ html{
 
 .question-wrapper{
     box-shadow: 0 0 10px var(--shadow-color);
-    width: 60rem;
+    width: 80%;
     margin: auto;
 }
 
 .question{
-    width: 40rem;
+    width: 80%;
     margin: auto;
 }
 
@@ -36,11 +33,4 @@ html{
 
 .mcq{
     text-align: center;
-}
-
-@media only screen and (max-width:600px)
-{
-    html{
-        font-size: 50%;
-    }
 }
