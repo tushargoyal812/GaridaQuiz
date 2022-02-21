@@ -35,6 +35,16 @@ In this section user will see right answers of every question.
 
 ![image](/assets/quiz-result.png)
 
+## Login section
+In this section user will login by using email id and password.
+
+![image](/assets/quiz-login.png)
+
+## Signup section
+In this section new user will create account by using email id and password.
+
+![image](/assets/quiz-signup.png)
+
 # Here you can see demo...
 
 https://user-images.githubusercontent.com/69681896/154839796-e145ac80-174a-46d1-b927-f6d0f3b3603f.mp4
