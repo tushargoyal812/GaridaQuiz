@@ -3,6 +3,10 @@
     --btn-hover:#94a3b8;
 }
 
+html{
+    font-size: 100%;
+}
+
 
 .option-btn{
     width: 25rem;
@@ -32,4 +36,11 @@
 
 .mcq{
     text-align: center;
+}
+
+@media only screen and (max-width:600px)
+{
+    html{
+        font-size: 70%;
+    }
 }
